@@ -1,0 +1,174 @@
+.linkCulture300x300jpeg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.figureCulture {
+  width: 215px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.divtravelAdventure {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-140xl) var(--padding-38xl) var(--padding-141xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.linkCulture300x300jpeg1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.figureCulture1 {
+  width: 236px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.divtravelAdventure1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-140xl) var(--padding-28xl) var(--padding-141xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.linkCulture300x300jpeg2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divtravelAdventure2,
+.figureCulture2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.figureCulture2 {
+  width: 151px;
+  letter-spacing: 3px;
+  line-height: 24px;
+  text-transform: uppercase;
+  align-items: center;
+  z-index: 1;
+}
+.divtravelAdventure2 {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-140xl) var(--padding-xl) var(--padding-141xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.linkCulture300x300jpeg3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.figureCulture3 {
+  width: 208px;
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.divtravelAdventure3,
+.divtravelAdventureParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.divtravelAdventure3 {
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-140xl) var(--padding-42xl) var(--padding-141xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.divtravelAdventureParent {
+  align-self: stretch;
+  display: grid;
+  gap: var(--gap-35xl);
+  grid-template-columns: repeat(4, minmax(248px, 1fr));
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1300px) {
+  .divtravelAdventureParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(248px, 430px));
+  }
+}
+@media screen and (max-width: 800px) {
+  .divtravelAdventureParent {
+    gap: var(--gap-8xl);
+    grid-template-columns: minmax(248px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .divtravelAdventure,
+  .divtravelAdventure1,
+  .divtravelAdventure3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

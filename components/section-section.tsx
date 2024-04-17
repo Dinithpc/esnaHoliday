@@ -1,22 +1,23 @@
 import type { NextPage } from "next";
 import FrameComponent2 from "./frame-component2";
-import styles from "./section-section.module.css";
 
 const SectionSection: NextPage = () => {
   return (
-    <div className={styles.sectionSection}>
-      <div className={styles.sectionSectionInner}>
-        <div className={styles.frameParent}>
-          <div className={styles.heading2GetLostInParadiWrapper}>
-            <h1 className={styles.heading2}>Get lost in Paradise</h1>
+    <div className="self-stretch bg-whitesmoke box-border flex flex-col items-start justify-start pt-[30px] pb-[67px] pr-[72px] pl-[121px] gap-[64px] max-w-full text-center text-5xl text-black font-playfair-display border-t-[1px] border-solid border-gainsboro mq800:pb-[29px] mq800:box-border mq450:gap-[16px] mq450:pl-5 mq450:box-border mq1125:gap-[32px] mq1125:pt-5 mq1125:pb-11 mq1125:pr-9 mq1125:pl-[60px] mq1125:box-border">
+      <div className="w-[1500px] flex flex-row items-start justify-center max-w-full">
+        <div className="w-[924px] flex flex-col items-end justify-start gap-[11px] max-w-full">
+          <div className="self-stretch flex flex-row items-start justify-center py-0 px-5">
+            <h1 className="m-0 w-[220.7px] relative text-inherit tracking-[0.22px] leading-[48px] capitalize font-normal font-inherit flex items-center justify-center shrink-0 mq450:text-lgi mq450:leading-[38px]">
+              Get lost in Paradise
+            </h1>
           </div>
-          <div className={styles.ourIslandIsContainer}>
-            <p className={styles.ourIslandIs}>
+          <div className="self-stretch relative text-2xs tracking-[0.22px] leading-[23px] font-montserrat text-dimgray">
+            <p className="m-0">
               Our island is the ideal place to lose and find yourself. Unravel
               the mysteries behind an ancient fortress in the sky, spend your
               day building sandcastles on a golden
             </p>
-            <p className={styles.beachOrDive}>
+            <p className="m-0">
               beach or dive into the island’s wilderness. The choice is yours
               with Esna Holidays, one of the most sought-after tour operators in
               Sri Lanka.
@@ -24,7 +25,7 @@ const SectionSection: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.frameGroup}>
+      <div className="self-stretch flex flex-col items-start justify-start gap-[54px] max-w-full text-sm text-white font-montserrat mq800:gap-[27px]">
         <FrameComponent2
           linkCulture300x300jpeg="/link--culture300x300jpeg@2x.png"
           figureCultureHeritage={`Culture & Heritage`}

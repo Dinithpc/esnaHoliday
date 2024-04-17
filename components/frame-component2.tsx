@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
-import styles from "./frame-component2.module.css";
 
 export type FrameComponent2Type = {
   linkCulture300x300jpeg?: string;
@@ -75,48 +74,63 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({
   }, [propWidth4]);
 
   return (
-    <div className={styles.divtravelAdventureParent} style={frameDivStyle}>
-      <div className={styles.divtravelAdventure}>
+    <div
+      className="self-stretch grid flex-row items-start justify-start gap-[54px] max-w-full grid-cols-[repeat(4,_minmax(248px,_1fr))] z-[1] text-center text-sm text-white font-montserrat mq800:gap-[27px] mq800:grid-cols-[minmax(248px,_1fr)] mq1300:justify-center mq1300:grid-cols-[repeat(2,_minmax(248px,_430px))]"
+      style={frameDivStyle}
+    >
+      <div className="overflow-hidden flex flex-row items-start justify-start pt-[159px] px-[57px] pb-40 box-border relative max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border">
         <img
-          className={styles.linkCulture300x300jpeg}
+          className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
           loading="lazy"
           alt=""
           src={linkCulture300x300jpeg}
         />
-        <b className={styles.figureCulture} style={figureCultureStyle}>
+        <b
+          className="w-[215px] relative tracking-[3px] leading-[24px] uppercase inline-block z-[1]"
+          style={figureCultureStyle}
+        >
           {figureCultureHeritage}
         </b>
       </div>
-      <div className={styles.divtravelAdventure1}>
+      <div className="overflow-hidden flex flex-row items-start justify-start pt-[159px] px-[47px] pb-40 box-border relative max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border">
         <img
-          className={styles.linkCulture300x300jpeg1}
+          className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
           loading="lazy"
           alt=""
           src={linkCulture300x300jpeg1}
         />
-        <b className={styles.figureCulture1} style={figureCulture1Style}>
+        <b
+          className="w-[236px] relative tracking-[3px] leading-[24px] uppercase inline-block z-[1]"
+          style={figureCulture1Style}
+        >
           {figureCultureHeritage1}
         </b>
       </div>
-      <div className={styles.divtravelAdventure2}>
+      <div className="overflow-hidden flex flex-row items-start justify-center pt-[159px] pb-40 pr-5 pl-[21px] box-border relative max-w-full">
         <img
-          className={styles.linkCulture300x300jpeg2}
+          className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
           loading="lazy"
           alt=""
           src={linkCulture300x300jpeg2}
         />
-        <b className={styles.figureCulture2} style={figureCulture2Style}>
+        <b
+          className="w-[151px] relative tracking-[3px] leading-[24px] uppercase flex items-center justify-center z-[1]"
+          style={figureCulture2Style}
+        >
           {figureCultureHeritage2}
         </b>
       </div>
-      <div className={styles.divtravelAdventure3}>
+      <div className="overflow-hidden flex flex-row items-start justify-start pt-[159px] px-[61px] pb-40 box-border relative max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border">
         <img
-          className={styles.linkCulture300x300jpeg3}
+          className="h-full w-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
           loading="lazy"
           alt=""
           src={linkCulture300x300jpeg3}
         />
-        <b className={styles.figureCulture3} style={figureCulture3Style}>
+        <b
+          className="w-52 relative tracking-[3px] leading-[24px] uppercase inline-block z-[1]"
+          style={figureCulture3Style}
+        >
           {figureCultureHeritage3}
         </b>
       </div>
